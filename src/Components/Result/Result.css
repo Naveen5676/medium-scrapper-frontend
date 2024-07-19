@@ -16,8 +16,9 @@
     border: none;
     border-radius: 30px;
     padding: 20px;
-    background-color: rgba(32, 32, 33, 0.71);
-    color: white; /* Ensure text is visible on the blue background */
+    /* background-color: rgba(32, 32, 33, 0.71); */
+    background-color: #E6D5BC;
+    color: rgb(4, 4, 4); /* Ensure text is visible on the blue background */
     text-align: center;
     margin: 1vw; /* Add some margin around each article for better spacing */
     display: flex;
@@ -60,20 +61,22 @@
 
 .article a {
     font-size: 1vw;
-    color: white;
+    color: rgb(244, 20, 20);
     text-decoration: none;
     margin-top: 10px;
-    border:1px solid rgba(92, 217, 226, 0.536);
+    /* border:1px solid rgba(92, 217, 226, 0.536); */
     border-radius: 50px;
-    background-color: rgb(66, 73, 73);
+    /* background-color: rgb(66, 73, 73); */
+    /* background-color: #D5B990; */
     padding:10px;
     cursor: pointer;
-    transition: background-color 0.2s ease-in-out;
+    /* transition: background-color 0.2s ease-in-out; */
 }
 
 .article a:hover{
-    background-color: rgb(107, 108, 108);
-    transform: translateY(-3px);
+    /* background-color: rgb(107, 108, 108); */
+    color: rgba(244, 20, 20, 0.887);
+    /* transform: translateY(-3px); */
 }
 
 .message{

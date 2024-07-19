@@ -1,5 +1,6 @@
 .main-container {
-    background: linear-gradient(to bottom, #808383, #9da17d); /* Adjust colors as needed */
+    /* background: linear-gradient(to bottom, #808383, #9da17d); Adjust colors as needed */
+    background-color: #ECE3D4;
     min-height: 100svh;
 }
 
