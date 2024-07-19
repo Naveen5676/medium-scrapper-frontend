@@ -18,7 +18,7 @@ function InputForm({ scrappedArticles }) {
     } catch (err) {
       console.log(err);
     } finally {
-      setIsLoading(false); // Set loading to false when the search is complete
+      setIsLoading(false); 
     }
   }
 

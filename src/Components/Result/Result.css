@@ -1,4 +1,4 @@
-/* Result.css */
+
 .Result-wrapper {
     width: 100%;
     display: flex;
@@ -10,17 +10,15 @@
 }
 
 .article-container {
-    width: 30%; /* Adjust width to fit within the container with gap */
-    /* max-width: 500px; */
+    width: 30%; 
     height: 500px; 
     border: none;
     border-radius: 30px;
     padding: 20px;
-    /* background-color: rgba(32, 32, 33, 0.71); */
     background-color: #E6D5BC;
-    color: rgb(4, 4, 4); /* Ensure text is visible on the blue background */
+    color: rgb(4, 4, 4); 
     text-align: center;
-    margin: 1vw; /* Add some margin around each article for better spacing */
+    margin: 1vw; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,7 +33,7 @@
 .article-image {
     width: 100%;
     min-height: 200px; 
-    object-fit: cover; /* Ensure the image covers the container */
+    object-fit: cover; 
     border-radius: 10px;
     margin-bottom: 10px;
 }
@@ -64,19 +62,13 @@
     color: rgb(244, 20, 20);
     text-decoration: none;
     margin-top: 10px;
-    /* border:1px solid rgba(92, 217, 226, 0.536); */
     border-radius: 50px;
-    /* background-color: rgb(66, 73, 73); */
-    /* background-color: #D5B990; */
     padding:10px;
     cursor: pointer;
-    /* transition: background-color 0.2s ease-in-out; */
 }
 
 .article a:hover{
-    /* background-color: rgb(107, 108, 108); */
     color: rgba(244, 20, 20, 0.887);
-    /* transform: translateY(-3px); */
 }
 
 .message{
@@ -111,20 +103,19 @@ margin-top: 50px;
 
     .article-container {
         width: 100% ;
-        /* max-width: 100% ; */
         margin: 1vw 0; 
     }
 
     .article h3 {
-        font-size: 4.5vw; /* Adjust font size for smaller screens */
+        font-size: 4.5vw; 
     }
 
     .article p {
-        font-size: 4vw; /* Adjust font size for smaller screens */
+        font-size: 4vw; 
     }
 
     .article a {
-        font-size: 4vw; /* Adjust font size for smaller screens */
+        font-size: 4vw; 
     }
 }
 
